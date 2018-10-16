@@ -1,0 +1,55 @@
+\ProvidesPackage{beamerthemetecnm}
+
+% Gerardo Marx Chavez Campos 2018
+
+\mode<presentation>
+
+\useoutertheme[dark]{sidebar}
+\useinnertheme[shadow]{rounded}
+
+\definecolor{granate}{rgb}{.7,0,0} 
+\definecolor{navy}{rgb}{0,0,.5} 
+\definecolor{azulado}{rgb}{0.2,0.5,0.7} 
+\definecolor{verdepino}{RGB}{21,42,87}
+%\definecolor{azultecnm}{RGB}{21,42,87}
+
+
+\setbeamercolor{Title bar}{fg=verdepino}
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=red}
+\setbeamercolor{example text}{fg=white}
+\setbeamercolor{block}{fg=red, bg=red}
+\setbeamercolor{math text}{fg=black}
+\setbeamercolor{frametitle}{bg=white}
+\setbeamercolor{title}{bg=verdepino}
+
+\setbeamercolor{item projected}{parent=item,use=item,fg=white,bg=verdepino}
+\setbeamercolor{subitem projected}{parent=item projected}
+\setbeamercolor{subsubitem projected}{parent=subitem projected}
+
+\setbeamercolor*{palette primary}{use=granate,fg=white,bg=granate}
+\setbeamercolor*{palette secondary}{use=granate,fg=white,bg=white}
+\setbeamercolor*{palette tertiary}{use=granate,fg=white,bg=granate}
+\setbeamercolor*{palette quaternary}{fg=white,bg=white}
+
+\beamertemplateshadingbackground{white!100}{blue!0}
+\setbeamercolor*{sidebar}{use=structure,bg=white}
+  
+\setbeamercolor*{palette sidebar primary}{use=structure,fg=black}
+\setbeamercolor*{palette sidebar secondary}{fg=black}
+\setbeamercolor*{palette sidebar tertiary}{use=structure,fg=black}
+\setbeamercolor*{palette sidebar quaternary}{fg=black}
+
+\setbeamercolor*{titlelike}{parent=palette primary}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\setbeamercolor{button}{use=local structure,bg=local structure.fg!50!bg,fg=white}
+\setbeamercolor{button border}{use=button,fg=button.bg}
+\setbeamercolor{navigation symbols}{use=structure,fg=navy}
+\setbeamercolor{navigation symbols dimmed}{use=structure,fg=navy}
+\setbeamercolor{mini frame}{parent=section in head/foot}
+
+\mode
+<all>
