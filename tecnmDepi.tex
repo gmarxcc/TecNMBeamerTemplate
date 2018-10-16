@@ -1,0 +1,68 @@
+% Plantilla diseñada por
+% Gerardo Marx Chávez-Campos para el TeCNM
+\documentclass{beamer}
+\usetheme{tecnm}
+\usepackage{url}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{multimedia}
+\usepackage{rotating}
+\newtheorem{axioma}{Teorema}
+
+\newcommand{\fst}[2]{\subsection{#2}\frame{\frametitle{#2} #2}}
+%Comando para crear un frame con imagen:
+\newcommand\imageFrame[2]{
+\begingroup
+\begin{frame}
+  \begin{center}
+\includegraphics[width=3.5in]{Figures/#1}\\
+\Large #2
+    \end{center}
+\end{frame}
+\endgroup
+}
+
+
+\title[Título corto]{Título largo }
+\date{Abril -- 2018}
+%\date{\today}
+\author[TecNM]{Gerardo Marx Chávez-Campos}
+\institute[TecNM]{Tecnológico Nacional de México\\
+Instituto Tecnológico de Morelia\\
+División de Estudios de Posgrado e Investigación}
+\logo{\includegraphics[width=.4in]{Figures/soloLogoTecnm}}
+\begin{document}
+
+%----INICIO Portada
+\begin{frame}[plain]
+  \titlepage
+  \vspace{-.6in}
+  \includegraphics[width =0.25 \textwidth ]{Figures/soloLogoTecnm}
+\end{frame}
+%---FIN Portada
+
+%---INICIO Contenido%
+\begin{frame}[fragile]
+\frametitle{Contenido}
+  \tableofcontents
+\end{frame}
+%---FIN Contenido%
+
+%-----------------------
+\section{Objetivo general}
+\begin{frame}
+	\centering
+	\textbf{Objetivo general} de los puntos  que se revisan en la reunión, \alert{es lograr los indicadores que CONACyT evalúa} para permanecer o ingresar en el \textbf{PNPC}.\\
+
+	
+\end{frame}
+%-------------
+
+
+
+
+\end{document}
